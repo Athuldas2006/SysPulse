@@ -37,11 +37,25 @@ Only install APK files you downloaded from the official SysPulse repository. Che
 
 ### Main Dashboard
 
-![SysPulse](assets/SysPulse.png)
+![SysPulse Windows Dashboard](assets/SysPulse.png)
 
 ### Health Report
 
-![SysPulse Report](assets/SysPulse1.png)
+![SysPulse Windows Health Report](assets/SysPulse1.png)
+
+## 📱 Android Screenshots
+
+Here are screenshots of the Android version of SysPulse.
+
+![SysPulse Android Screenshot 1](assets/IMG_20261015_154819.jpg)
+
+![SysPulse Android Screenshot 2](assets/IMG_20261015_154914.jpg)
+
+![SysPulse Android Screenshot 3](assets/IMG_20261015_154936.jpg)
+
+### Android Report
+
+![SysPulse Android Report](SysPulse-Android-Report.jpg)
 
 ## 🚀 Run the Windows Executable
 
@@ -92,7 +106,8 @@ SysPulse/
 ├── assets/
 │   ├── icon.ico
 │   ├── SysPulse.png
-│   └── SysPulse1.png
+│   ├── SysPulse1.png
+│   └── Android screenshots (.jpg)
 ├── src/
 │   └── SysPulse.py
 ├── SysPulse.exe
