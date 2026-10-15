@@ -1,0 +1,9 @@
+# Android Studio and Gradle local state
+.gradle/
+.idea/
+local.properties
+/build/
+app/build/
+
+# Local release artifacts and obfuscation maps
+app/release/
