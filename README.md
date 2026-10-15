@@ -1,12 +1,12 @@
 # SysPulse 🩺
 
-A lightweight Windows system monitoring dashboard built with Python and Tkinter.
+SysPulse is a system-monitoring project with a lightweight Windows desktop dashboard and an Android app.
 
-SysPulse provides a live overview of system health, resource usage, GPU information, battery status, network activity, storage, uptime, top processes, and a generated HTML health report.
+The Windows dashboard provides a live overview of system health, resource usage, GPU information, battery status, network activity, storage, uptime, top processes, and a generated HTML health report.
 
 ![SysPulse Dashboard](assets/SysPulse.png)
 
-## ✨ Features
+## ✨ Windows Features
 
 - 🖥️ Live CPU usage and processor information
 - 🧠 RAM usage, used memory, total memory, and available memory
@@ -22,7 +22,18 @@ SysPulse provides a live overview of system health, resource usage, GPU informat
 - 🌑 Dark desktop dashboard
 - 🪟 Standalone Windows executable
 
-## 📸 Screenshots
+## 📥 Downloads
+
+Get the latest builds from **[GitHub Releases](https://github.com/Athuldas2006/SysPulse/releases/latest)**.
+
+| Platform | Download | Installation |
+| --- | --- | --- |
+| Windows | Download `SysPulse.exe` from the latest release | Download and run the executable. Python is not required. |
+| Android | Download the SysPulse APK from the latest release | Download the APK on your device, open it, and follow Android's installation prompts. If prompted, allow your browser or file manager to install apps from that source. |
+
+Only install APK files you downloaded from the official SysPulse repository. Check the release notes for version-specific requirements and changes.
+
+## 📸 Windows Screenshots
 
 ### Main Dashboard
 
@@ -32,17 +43,17 @@ SysPulse provides a live overview of system health, resource usage, GPU informat
 
 ![SysPulse Report](assets/SysPulse1.png)
 
-## 🚀 Run the Executable
+## 🚀 Run the Windows Executable
 
 For Windows users who just want to use SysPulse:
 
-1. Download **SysPulse.exe** from this repository.
-2. Run it.
-3. SysPulse will start monitoring the computer locally.
+1. Open the [latest release](https://github.com/Athuldas2006/SysPulse/releases/latest).
+2. Download **SysPulse.exe** from the release assets.
+3. Run it.
 
 No Python installation is required when using the executable.
 
-## 🐍 Run from Source
+## 🐍 Run the Windows App from Source
 
 ### Requirements
 
@@ -91,6 +102,8 @@ SysPulse/
 └── requirements.txt
 ~~~
 
+Android APKs are distributed through GitHub Releases rather than stored in the source tree.
+
 ## 🛠️ Built With
 
 - Python
@@ -98,17 +111,24 @@ SysPulse/
 - psutil
 - NVIDIA SMI
 - HTML / CSS for generated reports
+- Android app build (see the Android source and build setup in the repository, if available)
 
 ## 🔒 Privacy
 
-SysPulse is designed as a local desktop monitoring application. System information is collected locally for display and report generation; the application does not require an online account or cloud backend.
+The Windows desktop version is designed as a local monitoring application. System information is collected locally for display and report generation; it does not require an online account or cloud backend.
+
+Review the Android app's requested permissions and the release notes before installing it.
 
 ## 📌 Notes
 
-GPU telemetry depends on `nvidia-smi`. If NVIDIA GPU information is unavailable, the rest of the monitoring dashboard can still operate.
-
-The generated health report is saved locally in a `Reports` folder next to the executable or source script.
+- GPU telemetry depends on `nvidia-smi`. If NVIDIA GPU information is unavailable, the rest of the Windows monitoring dashboard can still operate.
+- The generated Windows health report is saved locally in a `Reports` folder next to the executable or source script.
+- Android installation compatibility may depend on your device and Android version; check the release notes for the build you download.
 
 ## 📄 License
 
 This project is released under the MIT License. See [LICENSE](LICENSE) for details.
+
+## 🐛 Issues and Feedback
+
+Found a bug or have a suggestion? [Open an issue](https://github.com/Athuldas2006/SysPulse/issues) and include your device/OS details, steps to reproduce the problem, and any relevant error messages. Do not post private information or sensitive system logs.
